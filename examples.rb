@@ -1,15 +1,15 @@
 # Write a method that prints out the numbers 1 to 1000 that are divisible by 3.
 
-# def print_numbers_divisible_by_three
-#   index = 1
-#   while index <= 1000
-#     if index % 3 == 0
-#       puts index
-#     end
-#     index += 1
-#   end
-# end
-# print_numbers_divisible_by_three
+def print_numbers_divisible_by_three
+  index = 1
+  while index <= 1000
+    if index % 3 == 0
+      puts index
+    end
+    index += 1
+  end
+end
+print_numbers_divisible_by_three
 
 
 
@@ -52,7 +52,13 @@
 # # Add populations to the city_populations hash for New York City (8.4 million) and San Francisco (800,000).
 # # The result should be: {chi: 2700000, nyc: 8400000, sf: 800000}
 
-city_populations = {chi: 2700000}
-city_populations[:nyc] = 8400000
-city_populations[:sf] = 800000
-p city_populations
+# city_populations = {chi: 2700000}
+# city_populations[:nyc] = 8400000
+# city_populations[:sf] = 800000
+# p city_populations
+
+
+array = []
+array << "sam"
+array << "bill"
+p array # ["sam", "bill"]

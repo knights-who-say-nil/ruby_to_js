@@ -1,15 +1,15 @@
 // Write a method that prints out the numbers 1 to 1000 that are divisible by 3.
 
-// function printNumbersDivisibleByThree() {
-//   var index = 1;
-//   while (index <= 1000) {
-//     if (index % 3 === 0) {
-//       console.log(index);
-//     }
-//     index += 1;
-//   }
-// }
-// printNumbersDivisibleByThree();
+function printNumbersDivisibleByThree() {
+  var index = 1;
+  while (index <= 1000) {
+    if (index % 3 === 0) {
+      console.log(index);
+    }
+    index += 1;
+  }
+}
+printNumbersDivisibleByThree();
 
 
 
@@ -51,8 +51,13 @@
 // // Add populations to the city_populations hash for New York City (8.4 million) and San Francisco (800,000).
 // // The result should be: {chi: 2700000, nyc: 8400000, sf: 800000}
 
-var cityPopulations = {chi: 2700000};
-cityPopulations["nyc"] = 8400000;
-cityPopulations.sf = 800000;  // same as cityPopulations["sf"]
-console.log(cityPopulations);
+// var cityPopulations = {chi: 2700000};
+// cityPopulations["nyc"] = 8400000;
+// cityPopulations.sf = 800000;  // same as cityPopulations["sf"]
+// console.log(cityPopulations);
 
+
+var array = [];
+array.push("sam");
+array.push("bill");
+console.log(array); // ["sam", "bill"]
